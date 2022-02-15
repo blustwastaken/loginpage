@@ -2,15 +2,20 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: #33495e;
+    
 }
 
 .box {
     width: 300px;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
     position: absolute;
     transform: translate();
     background: #191919;
     text-align: center;
-}
+    }
 
 .box h1{
     color: white;
@@ -33,7 +38,7 @@ body{
 }
 
 .box input[type = "text"]:focus, .box input[type = "password"]:focus {
-    width: 280px;
+    width: 260px;
     border-color: #2ecc71;
 }
 
